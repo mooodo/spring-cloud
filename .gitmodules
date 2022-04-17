@@ -18,3 +18,7 @@
 	url  = https://gitee.com/mooodo/spring-cloud-eureka
 	path = spring-cloud-eureka
 
+[submodule "spring-cloud-zuul"]
+	url  = https://gitee.com/mooodo/spring-cloud-zuul
+	path = spring-cloud-zuul
+

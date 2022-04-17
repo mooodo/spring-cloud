@@ -14,3 +14,7 @@
 	url  = https://gitee.com/mooodo/demo-service2-order
 	path = spring-cloud-gateway
 
+[submodule "spring-cloud-eureka"]
+	url  = https://gitee.com/mooodo/spring-cloud-eureka
+	path = spring-cloud-eureka
+

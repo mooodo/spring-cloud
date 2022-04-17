@@ -2,3 +2,7 @@
 	url  = https://gitee.com/mooodo/spring-cloud-ribbon
 	path = spring-cloud-ribbon
 
+[submodule "spring-cloud-service"]
+	url  = https://gitee.com/mooodo/spring-cloud-service
+	path = spring-cloud-service
+

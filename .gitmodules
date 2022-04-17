@@ -1,0 +1,4 @@
+[submodule "spring-cloud-ribbon"]
+	url  = https://gitee.com/mooodo/spring-cloud-ribbon
+	path = spring-cloud-ribbon
+

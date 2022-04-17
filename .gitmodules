@@ -6,3 +6,7 @@
 	url  = https://gitee.com/mooodo/spring-cloud-service
 	path = spring-cloud-service
 
+[submodule "spring-cloud-feign"]
+	url  = https://gitee.com/mooodo/spring-cloud-feign
+	path = spring-cloud-feign
+

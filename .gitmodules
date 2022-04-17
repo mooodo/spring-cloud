@@ -10,3 +10,7 @@
 	url  = https://gitee.com/mooodo/spring-cloud-feign
 	path = spring-cloud-feign
 
+[submodule "spring-cloud-gateway"]
+	url  = https://gitee.com/mooodo/demo-service2-order
+	path = spring-cloud-gateway
+

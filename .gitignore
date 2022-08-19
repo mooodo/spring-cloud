@@ -1,2 +1,8 @@
 /pom.xml
 /.idea
+/spring-cloud-auth
+/spring-cloud-eureka/target
+/spring-cloud-feign/target
+/spring-cloud-ribbon/target
+/spring-cloud-service/target
+/spring-cloud-gateway/target

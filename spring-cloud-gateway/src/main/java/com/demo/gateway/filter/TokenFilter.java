@@ -18,7 +18,7 @@ public class TokenFilter implements GlobalFilter, Ordered {
         ServerHttpRequest request = exchange.getRequest();
         String token = request.getQueryParams().getFirst("token");
         if(token==null||token.equals("")) return unauthorized(exchange);
-        //valid whither the token has authority.
+        //valid whether the token has authority.
         return chain.filter(exchange);
     }
 

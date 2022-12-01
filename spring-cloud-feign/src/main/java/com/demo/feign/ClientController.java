@@ -6,10 +6,7 @@ package com.demo.feign;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author fangang
@@ -27,7 +24,7 @@ public class ClientController {
     public Person showMe() {
         return service.showMe();
     }
-    @GetMapping("findPerson")
+    @PostMapping("findPerson")
     public Person findPerson(@RequestParam Map<String,String> param) {
         return service.findPerson(param);
     }
